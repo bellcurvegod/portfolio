@@ -1,0 +1,37 @@
+@keyframes textAnimation {
+    0% {
+        transform: translateY(0);
+        opacity: 0;
+    }
+    
+    50% {
+        transform: translateY(-20px);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 0;
+    }
+}
+.topnav {
+    color: blue;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.header {
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    animation: textAnimation 3s;
+}
+
+.intro {
+    color: gray;
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+}
